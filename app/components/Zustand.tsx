@@ -6,7 +6,7 @@ interface ZustandProps {}
 export const Zustand = ({}: ZustandProps) => {
   return (
     <View>
-      <Text>Zustand</Text>
+      <Text>Zustands</Text>
     </View>
   );
 };
