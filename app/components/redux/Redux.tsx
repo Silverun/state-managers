@@ -7,8 +7,9 @@ import {
   FlatList,
   TouchableOpacity,
 } from "react-native";
-import { addTodo, toggleTodo, deleteTodo } from "../store/redux/slices/todo";
-import { useAppDispatch, useAppSelector } from "../store/redux/hooks";
+import { addTodo, toggleTodo, deleteTodo } from "../../store/redux/slices/todo";
+import { useAppDispatch, useAppSelector } from "../../store/redux/hooks";
+import UserList from "./UserList";
 
 export const Redux = () => {
   const [text, setText] = useState<string>("");
@@ -56,6 +57,8 @@ export const Redux = () => {
           </View>
         )}
       />
+      <View className="h-20" />
+      <UserList />
     </View>
   );
 };

@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "api": "json-server --watch db.json --port 3000"
   },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^7.2.0",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~18.3.12",
+    "json-server": "^1.0.0-beta.3",
     "typescript": "^5.3.3"
   },
   "private": true

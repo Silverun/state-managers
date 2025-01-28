@@ -1,5 +1,5 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Redux } from "../components/Redux";
+import { Redux } from "../components/redux/Redux";
 import { Zustand } from "../components/Zustand";
 import { MobX } from "../components/MobX";
 import { Provider } from "react-redux";
