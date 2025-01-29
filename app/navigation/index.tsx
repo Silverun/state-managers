@@ -1,9 +1,7 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Redux } from "../components/redux/Redux";
-import { Zustand } from "../components/Zustand";
+import { Zustand } from "../components/zustand/Zustand";
 import { MobX } from "../components/MobX";
-import { Provider } from "react-redux";
-import { reduxStore } from "../store/redux";
 
 const Tabs = createBottomTabNavigator();
 
