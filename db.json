@@ -10,13 +10,13 @@
       "id": "2",
       "name": "Jane Smith",
       "email": "jane@example.com",
-      "status": "blocked"
+      "status": "active"
     },
     {
       "id": "3",
       "name": "Alice Johnson",
       "email": "alice@example.com",
-      "status": "blocked"
+      "status": "active"
     },
     {
       "id": "4",
@@ -28,7 +28,7 @@
       "id": "5",
       "name": "Charlie Davis",
       "email": "charlie@example.com",
-      "status": "blocked"
+      "status": "active"
     }
   ]
 }
